@@ -20,7 +20,7 @@ class ViewController: UIViewController, OptionSelectionDelegate, UITextFieldDele
     @IBOutlet weak var translatedTextField: UITextField!
     @IBOutlet weak var dropdownButton1: UIButton!
     @IBOutlet weak var dropdownButton2: UIButton!
-    let apiKey = "9507af22-34d4-1e74-0e1d-0a80381fa19b:fx"
+    let apiKey = ""
     var targetLanguage = "TR"
     var sourceLanguage = "EN"
 
