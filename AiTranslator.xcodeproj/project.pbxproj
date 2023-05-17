@@ -13,6 +13,9 @@
 		96CEF8992A044F9200F1AAEA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CEF8972A044F9200F1AAEA /* Main.storyboard */; };
 		96CEF89B2A044F9300F1AAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96CEF89A2A044F9300F1AAEA /* Assets.xcassets */; };
 		96CEF89E2A044F9300F1AAEA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96CEF89C2A044F9300F1AAEA /* LaunchScreen.storyboard */; };
+		96CEF8AE2A13F09D00F1AAEA /* OptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CEF8AD2A13F09D00F1AAEA /* OptionsTableViewController.swift */; };
+		96CEF8B02A14F03600F1AAEA /* TranslationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CEF8AF2A14F03600F1AAEA /* TranslationResponse.swift */; };
+		96CEF8B22A14F05600F1AAEA /* TranslationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CEF8B12A14F05600F1AAEA /* TranslationService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		96CEF89A2A044F9300F1AAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96CEF89D2A044F9300F1AAEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		96CEF89F2A044F9300F1AAEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		96CEF8AD2A13F09D00F1AAEA /* OptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsTableViewController.swift; sourceTree = "<group>"; };
+		96CEF8AF2A14F03600F1AAEA /* TranslationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationResponse.swift; sourceTree = "<group>"; };
+		96CEF8B12A14F05600F1AAEA /* TranslationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslationService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				96CEF89A2A044F9300F1AAEA /* Assets.xcassets */,
 				96CEF89C2A044F9300F1AAEA /* LaunchScreen.storyboard */,
 				96CEF89F2A044F9300F1AAEA /* Info.plist */,
+				96CEF8AD2A13F09D00F1AAEA /* OptionsTableViewController.swift */,
+				96CEF8AF2A14F03600F1AAEA /* TranslationResponse.swift */,
+				96CEF8B12A14F05600F1AAEA /* TranslationService.swift */,
 			);
 			path = AiTranslator;
 			sourceTree = "<group>";
@@ -138,9 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CEF8AE2A13F09D00F1AAEA /* OptionsTableViewController.swift in Sources */,
+				96CEF8B02A14F03600F1AAEA /* TranslationResponse.swift in Sources */,
 				96CEF8962A044F9200F1AAEA /* ViewController.swift in Sources */,
 				96CEF8922A044F9200F1AAEA /* AppDelegate.swift in Sources */,
 				96CEF8942A044F9200F1AAEA /* SceneDelegate.swift in Sources */,
+				96CEF8B22A14F05600F1AAEA /* TranslationService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +299,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M24W9TD5C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AiTranslator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = M24W9TD5C5;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AiTranslator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
